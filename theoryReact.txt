@@ -1,0 +1,32 @@
+<------12,dec,24------->
+-How to comment and uncomment components in react in code
+-by creating folder
+-imported component in app.jsx not gives error after commenting
+-further topics hooks and pro
+-we can uncomment topic and further sub-topic
+
+-in app.jsx
+   {
+    <div>TopicIntro</div>
+    }
+-follow folder structure
+
+
+-***JSX***
+  -JavaScript and XML
+  -JSX is html look like structure 
+  -while writing JSX we need to follow some rules
+  -Rules:
+     -01)It is compulsory to return JSX (if not return JSX we will get blank page)               
+     -02)We can't write multiple return statement.
+          we can return only one  elements at a time.If we want to send multiple element it must be wrpped to singleparent element 
+     -03)Each and every tag in JSx must be closed
+     -04)In html we have some repeated attributes
+     -05)react fragment:used to avoid extra nodes /tags creation
+         -two way os writing react fragments
+           -way1:using angular braces
+           -way2:using react.fragment
+           -way3:using using fragment after destructuring from react by importing fragment from react
+
+
+     

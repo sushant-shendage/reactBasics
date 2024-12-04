@@ -1,0 +1,15 @@
+#NavDivId{
+    background-color: rgb(247, 241, 241);
+  border:2px solid red;
+  height: 90px;
+  display: flex;
+
+}
+#listId{
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  margin: 20px;
+  gap:250px;
+  
+}
