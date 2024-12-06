@@ -1,0 +1,87 @@
+#Layer1Id{
+    background-color: blue;
+    height: 90%;
+    width: 40%;
+}
+#div1{
+    height: 18%;
+    width: 75%;
+    border: 2px solid black ;
+    margin-top: 7%;
+    margin-left: 12%;
+    display: flex;
+    background-color: white;
+
+}
+#div2{
+    height: 25%;
+    width: 75%;
+    border: 2px solid black ;
+    margin-left: 12%;
+    background-color: whitesmoke;
+
+}
+#div3{
+    height: 25%;
+    width: 75%;
+    border: 2px solid black ;
+    margin-left: 12%;
+    background-color: whitesmoke;
+
+
+}
+#div4{
+    height: 18%;
+    width: 75%;
+    border: 2px solid black ;
+    margin-left: 12%;
+    display: flex;
+
+}
+
+#div11{
+    height: 100%;
+    width: 33%;
+    border: 2px solid rgb(241, 238, 238) ;
+    text-align: center;
+    text-wrap: ba;
+}
+#div22{
+    height: 100%;
+    width: 33%;
+    border: 2px solid rgb(241, 238, 238) ;
+    background-color: whitesmoke;
+    
+    
+}
+#div33{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(223, 117, 55);
+    border: 2px solid rgb(241, 238, 238) ;
+    
+}
+
+#div44{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(229, 52, 52) ;
+    border: 2px solid rgb(229, 52, 52) ;
+
+    
+}#div55{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(26, 129, 214) ;
+    border: 2px solid rgb(26, 129, 214) ;
+
+    
+    
+}
+#img1{
+    height: 90px;
+}
+#img2{
+    height: 200px;
+    width: 100%;
+}

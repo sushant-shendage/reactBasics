@@ -19,14 +19,63 @@
   -Rules:
      -01)It is compulsory to return JSX (if not return JSX we will get blank page)               
      -02)We can't write multiple return statement.
-          we can return only one  elements at a time.If we want to send multiple element it must be wrpped to singleparent element 
+          we can return only jsx  elements at a time.If we want to send multiple element it must be wrpped to single parent element 
      -03)Each and every tag in JSx must be closed
      -04)In html we have some repeated attributes
      -05)react fragment:used to avoid extra nodes /tags creation
-         -two way os writing react fragments
+         -two way of writing react fragments
            -way1:using angular braces
-           -way2:using react.fragment
-           -way3:using using fragment after destructuring from react by importing fragment from react
+                -we can't use key which possible in other two ways of react fragment
+           -way2:using react.fragment(how)
+           -way3:using using fragment after destructuring from react by importing fragment from react(how)
+
+           why we are writing fragment or react.fragment?-->we can use key attribute with any tag which is not possible empty tag
+
+--------------------------------------------------------------------------------------------------------------------
+ react npm vite vs react npx
+ 
+-command
+npx creat-react-app  "projecname"  (don't use camel case while naming project,Write always in lower case only)
+
+(npm audit fix --npm :used to fix issues)
 
 
-     
+project opens at port ...
+react :3000
+react with vite:5173
+
+folder structure of npx installation
+-we will get index.html in public folder when we creat react project using react/
+-app.js is present instead of app.jsx(in src folder)
+   (in vite not allowed to write jsx code in js file. 
+  but in react CRA js code can be written in js and jsx)
+
+-difference between js and jsx in vite and reeact
+-index.jx==main.jsx
+-vite installation is 40x time faster also lesser in size
+
+-npm run dev   vs  npm start      :commannds to run code for vite and react npx
+
+-npm vs npx
+  -npm :package installer(node package manager)
+    -will compulsory download all the package and libraries in your sysytem
+     means we are downloading the packages and then only we can use them
+    -ANOLOGY:WAY1 OF USING FACEBOOK:it's like mobile app installation of facebook app
+  -npx:(node package executer)
+    -npx will download only the necessary packages and remaining packages we can access without downloading them
+    -ANOLOGY:WAY2 OF USING FACEBOOK:downloading the browser ( nessessary packages)
+      here in this example we are not downloading the facebook but indtead we are downloading the necessary package(browser)
+      and executing/using facebook on that package
+
+allP    necessaryP   allP    -->download packages 
+600+    300-400      65-65
+npm   vs npx   vs   npm vite
+slower-------->faster
+--------------------------------------------------------------------------------------------------------------------
+     -we can change name with default import
+     -default vs named import
+     -where to erite import,export,html code and js code wer to componenet
+     -without curly braces returns object
+     -import react ,{fragments} from "react";
+       -ract and fragment
+--------------------------------------------------------------------------------------------------------------------
