@@ -31,9 +31,10 @@
 
            why we are writing fragment or react.fragment?-->we can use key attribute with any tag which is not possible empty tag
 
-     -05)jsx expression rule 1
+     -05)jsx expression rules
          -rules:
-           -
+           -rule 1:we should not write console statements inside jsx XPathExpression because it will not displayed
+           -rule2:in jsx expression we can't write any conditional statement except ternery operator and shortCircuit operators
 
 
 
