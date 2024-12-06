@@ -1,4 +1,5 @@
 import React from 'react'
+import JSXExprsiionRule2 from '../JSXExpressionrules/JSXExprsiionRule2';
 
 
 function Jsxrule6() {
@@ -7,6 +8,7 @@ function Jsxrule6() {
     <div>
         {/* <h1>{price}</h1> */}
         {/* <JSXExpressionRule1></JSXExpressionRule1> */}
+        <JSXExprsiionRule2/>
     </div>
      
   )
