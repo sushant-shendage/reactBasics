@@ -31,6 +31,12 @@
 
            why we are writing fragment or react.fragment?-->we can use key attribute with any tag which is not possible empty tag
 
+     -05)jsx expression rule 1
+         -rules:
+           -
+
+
+
 --------------------------------------------------------------------------------------------------------------------
  react npm vite vs react npx
  
