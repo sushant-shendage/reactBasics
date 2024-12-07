@@ -31,11 +31,16 @@
 
            why we are writing fragment or react.fragment?-->we can use key attribute with any tag which is not possible empty tag
 
-     -05)jsx expression rules
+     -06)jsx expression rules
          -rules:
            -rule 1:we should not write console statements inside jsx XPathExpression because it will not displayed
            -rule2:in jsx expression we can't write any conditional statement except ternery operator and shortCircuit operators
-
+           -rule3 :we can't use all looping stattement inside jsx expression . We can use only the higher-order functions but  all higher order functions are not   
+     -07) we can return a single statement with return statement may be either div ,string or anythinsg at a single line
+     -08)we can call componenet by writing it in paired tag
+     -09)Componenet name should be in upper-case so don't write html tags in uppercase as component
+         example:component name should not be "Div"
+         -it this case Div which is div element treat as jsx componenet
 
 
 --------------------------------------------------------------------------------------------------------------------
